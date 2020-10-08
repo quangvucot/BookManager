@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/qlSach"
+        android:title="Quản lý sách"
+        >
+        <menu>
+            <item
+                android:id="@+id/themSach"
+                android:title="Thêm Sách Sách" />
+            <item
+                android:id="@+id/suaSach"
+                android:title="Sửa Sách" />
+            <item
+                android:id="@+id/xoaSach"
+                android:title="Xóa Sách" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/qlTaiKhoan"
+        android:title="Quản lý tài khoản">
+        <menu>
+            <item
+                android:id="@+id/suaThongTin"
+                android:title="Sửa Thông Tin Người Dùng" />
+            <item
+                android:id="@+id/thongTinTaiKhoan"
+                android:title="Thông tin tài khoản" />
+            <item
+                android:id="@+id/doiMk"
+                android:title="Đổi Mật Khẩu" />
+            <item
+                android:id="@+id/xoaTaiKhoan"
+                android:title="Xóa Tài Khoản" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/thongKe"
+        android:title="Thống Kê" />
+    <item
+        android:id="@+id/hoaDon"
+        android:title="Hóa Đơn">
+        <menu>
+            <item
+                android:id="@+id/themHoaDon"
+                android:title="Thêm Hóa Đơn" />
+            <item
+                android:id="@+id/suaHoaDon"
+                android:title="Sửa Hóa Đơn" />
+            <item
+                android:id="@+id/xoaHoaDon"
+                android:title="Xóa Hóa Đơn" />
+        </menu>
+    </item>
+    <item android:title="Bộ Lọc"
+        android:id="@+id/boLoc"/>
+
+
+</menu>

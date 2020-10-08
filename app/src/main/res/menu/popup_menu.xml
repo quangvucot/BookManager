@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/giaDuoi100k"
+        android:title="Dưới 100.000VND" />
+    <item
+        android:id="@+id/giaDuoi200kVND"
+        android:title="Giá dưới 200.000 VND " />
+    <item
+        android:id="@+id/giaDuoi500k"
+        android:title="Giá Dưới 500.000 VND" />
+    <item
+        android:id="@+id/giaDuoi1000k"
+        android:title="Giá dưới 1.000.000 VND" />
+
+    <item
+        android:id="@+id/giaDuoi2000k"
+        android:title="Giá dưới 2.000.000 VND" />
+    <item
+        android:id="@+id/giaDuoi5000k"
+        android:title="Giá dưới 5.000.000 VND" />
+
+</menu>
