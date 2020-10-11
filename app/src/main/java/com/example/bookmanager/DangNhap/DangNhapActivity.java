@@ -2,7 +2,6 @@ package com.example.bookmanager.DangNhap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -15,7 +14,6 @@ import com.example.bookmanager.ChucNang.CacChucNang;
 import com.example.bookmanager.DangKy.DangKyActivity;
 import com.example.bookmanager.Database.MySQL;
 import com.example.bookmanager.Database.UserDAO;
-import com.example.bookmanager.MainActivity;
 import com.example.bookmanager.Model.NguoiDung;
 import com.example.bookmanager.R;
 import com.example.bookmanager.TrangChu.TrangChuActivity;

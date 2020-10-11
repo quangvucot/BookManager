@@ -17,10 +17,6 @@ public class UserDAO {
         this.mySQL = mySQL;
     }
 
-    public void xemTen() {
-
-    }
-
     public boolean xoaNguoiDung(String id) {
         SQLiteDatabase sqLiteDatabase = mySQL.getWritableDatabase();
         long ketQua = sqLiteDatabase.delete("USER", "username=?", new String[]{id});
@@ -64,7 +60,7 @@ public class UserDAO {
         if (cursor.getCount() > 0) {
             cursor.moveToFirst();
             while (!cursor.isAfterLast()) {
-                String username = cursor.getString(0);
+                String username = cursor.getColumnName(0);
                 String password = cursor.getString(1);
                 String repeatPassword = cursor.getString(4);
                 String tenNguoiDung = cursor.getString(2);
@@ -126,8 +122,6 @@ public class UserDAO {
         }
         return nguoiDungList;
     }
-//    public boolean deleteAll(){
-//        SQLiteDatabase sqLiteDatabase = mySQL.getWritableDatabase();
-//
-//    }
+
+
 }

@@ -21,12 +21,14 @@
             <TextView
                 android:fontFamily="sans-serif-medium"
                 android:textSize="18sp"
+                android:id="@+id/tvTenSach"
                 android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Tên Sách"/>
 
             <TextView
+                android:id="@+id/tvGiaSach"
                 android:textSize="14sp"
                 android:fontFamily="sans-serif-medium"
                 android:layout_marginTop="8dp"
